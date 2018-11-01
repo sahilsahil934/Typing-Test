@@ -125,6 +125,7 @@ void Ty :: listTest(char *user)
 	char ch;
 	f.get(ch);
 	int count = 0;
+	start = NULL;
 	while (!f.eof())
 	{
 		Ty *newnode = new Ty;
@@ -291,7 +292,7 @@ void Ty :: Test(char *value, char* user)
 	cout<<"\n\n";
 	f.close();
 	f.open("check.txt",ios::out);
-	char text[200];
+	char text[2000];
 	cout<<"\n Press any key to start";
 	system("pause");
 	clock_t tStart = clock();
@@ -341,7 +342,7 @@ void Ty :: Test(char *value, char* user)
 	cout<<"\n Typing Time : "<<time<<" Seconds";
 	f<<" Test Time : "<<time;
 	cout<<"\n Speed : "<<speed<<" WPM";
-	f<<" Speed : "<<speed;
+	f<<" Speed : "<<speed<<" WPM";
 	cout<<"\n\n\n\n\n\t\t\t\t\t\t*************************** TYPING TEST ******************************\n";
 	system("pause");
 }
