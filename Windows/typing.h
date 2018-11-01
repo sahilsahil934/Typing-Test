@@ -1,5 +1,5 @@
-#ifndef DICT_H
-#define DICT_H
+#ifndef TYPING_H
+#define TYPING_H
 
 #include <iostream>
 #include <conio.h>
