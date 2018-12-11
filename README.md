@@ -12,3 +12,5 @@ Typing Test made in totally C++
  Shows Time.
  Shows speed in WPM.
  Save record of each user.
+
+![ScreenShots](/images/homepage_screenshot.png)
